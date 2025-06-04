@@ -1,1 +1,8 @@
-
+{
+    "@trg_table": "brz_@{src}_@{src_db_abr}_@{src_table}",
+    "@operation": "Append",
+    "@load_type": "full",
+    "business_area": "Inventory",
+    "src": "mes",
+    "_job_group_parallel_count": 1
+}
