@@ -1,1 +1,6 @@
-
+{
+    "_timezone": "UTC",
+    "_batch_audit_table": "batch_audit_table",
+    "_job_group_audit_table": "job_group_audit_table",
+    "_job_audit_table": "job_audit_table"
+}
