@@ -1,1 +1,9 @@
-
+{
+    "@trg_table": "brz_@{src}_@{src_table}",
+    "@operation": "Append",
+    "@load_type": "full",
+    "@src_database": "Production",
+    "business_area": "Purchase|Sales|Inventory|Manufacturing|Accounting",
+    "src": "odoo",
+    "_job_group_parallel_count": 1
+}
