@@ -35,7 +35,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 51,Y,@,mrp_routing_workcenter,@,@,write_date,@,*,time_cycle_manual|employee_ratio|time_cycle_manual_hours,time_cycle_manual|employee_ratio|time_cycle_manual_hours,mrp
 52,Y,@,mrp_workcenter,@,@,,@,*,time_efficiency|default_capacity|costs_hour|time_start|time_stop|oee_target,time_efficiency|default_capacity|costs_hour|time_start|time_stop|oee_target,mrp
 53,Y,@,mrp_workorder,@,@,write_date,@,*,duration|duration_unit|costs_hour,duration|duration_unit|costs_hour,mrp
-1951,Y,@,account_account,@,@,,@,*,,,account
 1952,N,Production_empty,account_account_account_journal_rel,@,@,,@,*,,,account
 1953,Y,@,account_account_account_tag,@,@,,@,*,,,account
 1954,N,Production_empty,account_account_exclude_res_currency_provision,@,@,,@,*,,,account
@@ -58,7 +57,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 1971,Y,@,account_asset,@,@,,@,*,method_progress_factor|asset_paused_days,method_progress_factor|asset_paused_days,account
 1972,Y,@,account_automatic_entry_wizard,@,@,,@,*,percentage,percentage,account
 1973,N,Production_empty,account_automatic_entry_wizard_account_move_line_rel,@,@,,@,*,,,account
-1974,Y,@,account_bank_statement,@,@,,@,*,,,account
 2903,Y,@,account_account_consolidation_account_rel,@,@,,@,*,,,account
 2904,Y,@,account_consolidation_inner_rel,@,@,,@,*,,,account
 2905,Y,@,account_journal_consolidation_company_period_rel,@,@,,@,*,,,account
@@ -68,7 +66,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2909,Y,@,consolidation_accounts_rel,@,@,,@,*,,,Job_grp_2
 2910,Y,@,consolidation_chart,@,@,,@,*,,,Job_grp_2
 1975,N,Production_empty,account_bank_statement_ir_attachment_rel,@,@,,@,*,,,account
-1976,Y,@,account_bank_statement_line,@,@,,@,*,amount_residual,amount_residual,account
 1977,N,Production_empty,account_budget_post,@,@,,@,*,,,account
 1978,N,Production_empty,account_budget_rel,@,@,,@,*,,,account
 1979,N,Production_empty,account_cash_rounding,@,@,,@,*,rounding,rounding,account
@@ -138,7 +135,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2002,N,Production_empty,account_invoice_extract_words,@,@,,@,*,word_box_midX|word_box_midY|word_box_width|word_box_height|word_box_angle,word_box_midX|word_box_midY|word_box_width|word_box_height|word_box_angle,account
 2003,N,Production_empty,account_invoice_send,@,@,,@,*,,,account
 2004,N,Production_empty,account_invoice_transaction_rel,@,@,,@,*,,,account
-2005,Y,@,account_journal,@,@,,@,*,,,account
 2006,N,Production_empty,account_journal_account_journal_group_rel,@,@,,@,*,,,account
 2007,N,Production_empty,account_journal_account_reconcile_model_rel,@,@,,@,*,,,account
 2008,N,Production_empty,account_journal_account_reconcile_model_template_rel,@,@,,@,*,,,account
@@ -146,11 +142,9 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2010,N,Production_empty,account_link_journal,@,@,,@,*,,,account
 2011,N,Production_empty,account_link_journal_line,@,@,,@,*,,,account
 2012,N,Production_empty,account_model_rel,@,@,,@,*,,,account
-2013,Y,@,account_move,@,@,write_date,@,*,,,account
 2014,N,Production_empty,account_move_account_invoice_send_rel,@,@,,@,*,,,account
 2015,N,Production_empty,account_move_account_resequence_wizard_rel,@,@,,@,*,,,account
 2016,N,Production_empty,account_move_asset_modify_rel,@,@,,@,*,,,account
-2017,Y,@,account_move_line,@,@,write_date,@,*,discount_percentage,discount_percentage,account
 2018,Y,@,account_move_line_account_tax_rel,@,@,,@,*,,,account
 2019,N,Production_empty,account_move_line_asset_modify_rel,@,@,,@,*,,,account
 2020,Y,@,account_move_purchase_order_rel,@,@,,@,*,,,account
@@ -162,7 +156,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2026,N,Production_empty,account_online_account,@,@,,@,*,balance,balance,account
 2027,Y,@,account_online_link,@,@,,@,*,,,account
 2028,Y,@,account_partial_reconcile,@,@,write_date,@,*,,,account
-2029,Y,@,account_payment,@,@,,@,*,,,account
 2030,N,Production_empty,account_payment_account_bank_statement_line_rel,@,@,,@,*,,,account
 2031,Y,@,account_payment_method,@,@,,@,*,,,account
 2032,Y,@,account_payment_method_line,@,@,,@,*,,,account
@@ -181,7 +174,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2045,N,Production_empty,account_reconcile_model_template,@,@,,@,*,,,account
 2046,N,Production_empty,account_reconcile_model_template_res_partner_category_rel,@,@,,@,*,,,account
 2047,N,Production_empty,account_reconcile_model_template_res_partner_rel,@,@,,@,*,,,account
-2048,Y,@,account_report,@,@,,@,*,,,account
 2049,N,Production_empty,account_report_account_report_horizontal_group_rel,@,@,,@,*,,,account
 2050,Y,@,account_report_column,@,@,,@,*,,,account
 2051,Y,@,account_report_expression,@,@,,@,*,,,account
@@ -599,10 +591,8 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2504,Y,@,mo_tracker,@,@,write_date,@,*,,,Job_grp_4
 2505,Y,@,mopo_details_dashboard,@,@,,@,*,mo_quantity|material_delivered_qty|material_received_qty,mo_quantity|material_delivered_qty|material_received_qty,Job_grp_4
 2506,N,Production_empty,mopo_details_wizard,@,@,,@,*,,,Job_grp_4
-2507,Y,@,mrp_bom,@,@,,@,*,,,mrp
 2508,Y,@,mrp_bom_byproduct,@,@,,@,*,,,mrp
 2509,N,Production_empty,mrp_bom_byproduct_product_template_attribute_value_rel,@,@,,@,*,,,mrp
-2510,Y,@,mrp_bom_line,@,@,write_date,@,*,,,mrp
 2511,N,Production_empty,mrp_bom_line_product_template_attribute_value_rel,@,@,,@,*,,,mrp
 2512,N,Production_empty,mrp_bom_subcontractor,@,@,,@,*,,,mrp
 2513,Y,@,mrp_consumption_warning,@,@,,@,*,,,mrp
@@ -611,7 +601,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2516,N,Production_empty,mrp_document,@,@,,@,*,,,mrp
 2517,N,Production_empty,mrp_immediate_production,@,@,,@,*,,,mrp
 2518,N,Production_empty,mrp_immediate_production_line,@,@,,@,*,,,mrp
-2519,Y,@,mrp_production,@,@,write_date,@,*,product_uom_qty|extra_cost|so_subtotal|so_line_qty,product_uom_qty|extra_cost|so_subtotal|so_line_qty,mrp
 2520,N,Production_empty,mrp_production_backorder,@,@,,@,*,,,mrp
 2521,N,Production_empty,mrp_production_backorder_line,@,@,,@,*,,,mrp
 2522,N,Production_empty,mrp_production_mrp_production_backorder_rel,@,@,,@,*,,,mrp
@@ -622,11 +611,9 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2527,N,Production_empty,mrp_production_split_multi,@,@,,@,*,,,mrp
 2528,N,Production_empty,mrp_production_stock_move_line_rel,@,@,,@,*,,,mrp
 2529,N,Production_empty,mrp_production_stock_move_rel,@,@,,@,*,,,mrp
-2530,Y,@,mrp_routing_workcenter,@,@,write_date,@,*,time_cycle_manual|employee_ratio|time_cycle_manual_hours,time_cycle_manual|employee_ratio|time_cycle_manual_hours,mrp
 2531,N,Production_empty,mrp_routing_workcenter_dependencies_rel,@,@,,@,*,,,mrp
 2532,N,Production_empty,mrp_routing_workcenter_product_template_attribute_value_rel,@,@,,@,*,,,mrp
 2533,N,Production_empty,mrp_unbuild,@,@,,@,*,product_qty,product_qty,mrp
-2534,Y,@,mrp_workcenter,@,@,,@,*,time_efficiency|default_capacity|costs_hour|time_start|time_stop|oee_target,time_efficiency|default_capacity|costs_hour|time_start|time_stop|oee_target,mrp
 2535,N,Production_empty,mrp_workcenter_alternative_rel,@,@,,@,*,,,mrp
 2536,N,Production_empty,mrp_workcenter_capacity,@,@,,@,*,capacity|time_start|time_stop,capacity|time_start|time_stop,mrp
 2537,N,Production_empty,mrp_workcenter_mrp_workcenter_tag_rel,@,@,,@,*,,,mrp
@@ -635,7 +622,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2540,Y,@,mrp_workcenter_productivity_loss_type,@,@,,@,*,,,mrp
 2541,Y,@,mrp_workcenter_stock_warehouse_rel,@,@,,@,*,,,mrp
 2542,N,Production_empty,mrp_workcenter_tag,@,@,,@,*,,,mrp
-2543,Y,@,mrp_workorder,@,@,write_date,@,*,duration|duration_unit|costs_hour,duration|duration_unit|costs_hour,mrp
 2544,N,Production_empty,mrp_workorder_additional_product,@,@,,@,*,product_qty,product_qty,mrp
 2545,Y,@,mrp_workorder_dependencies_rel,@,@,,@,*,,,mrp
 2546,N,Production_empty,mrp_workorder_note,@,@,,@,*,,,mrp
@@ -738,12 +724,9 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2643,Y,@,progression_reason,@,@,,@,*,,,Job_grp_6
 2644,N,Production_empty,propose_change,@,@,,@,*,,,Job_grp_6
 2645,Y,@,purchase_mo_link,@,@,,@,*,,,Job_grp_6
-2646,Y,@,purchase_order,@,@,,@,*,currency_rate,currency_rate,Job_grp_6
 2647,Y,@,purchase_order_approval_wizard,@,@,,@,*,,,Job_grp_6
 2648,Y,@,purchase_order_approvers,@,@,,@,*,,,Job_grp_6
 2649,N,Production_empty,purchase_order_group,@,@,,@,*,,,Job_grp_6
-2650,Y,@,purchase_order_line,@,@,write_date,@,*,product_uom_qty|price_tax|product_packaging_qty,product_uom_qty|price_tax|product_packaging_qty,Job_grp_6
-2651,Y,@,purchase_order_stock_picking_rel,@,@,,@,*,,,Job_grp_6
 2652,Y,@,purchase_requisition,@,@,,@,*,,,Job_grp_6
 2653,N,Production_empty,purchase_requisition_alternative_warning,@,@,,@,*,,,Job_grp_6
 2654,N,Production_empty,purchase_requisition_create_alternative,@,@,,@,*,,,Job_grp_6
@@ -816,11 +799,8 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2721,N,Production_empty,resource_resource_planning_role_rel,@,@,,@,*,,,Job_grp_6
 2722,Y,@,routing_category,@,@,,@,*,,,Job_grp_6
 2723,Y,@,rule_group_rel,@,@,,@,*,,,Job_grp_6
-2724,Y,@,sale_advance_payment_inv,@,@,,@,*,amount,amount,sale
 2725,Y,@,sale_advance_payment_inv_sale_order_rel,@,@,,@,*,,,sale
-2726,Y,@,sale_order,@,@,,@,*,,,sale
 2727,N,Production_empty,sale_order_cancel,@,@,,@,*,,,sale
-2728,Y,@,sale_order_line,@,@,,@,*,price_tax|product_packaging_qty|customer_lead|planning_hours_planned|planning_hours_to_plan|new_sale_qty|sold_quantity,price_tax|product_packaging_qty|customer_lead|planning_hours_planned|planning_hours_to_plan|new_sale_qty|sold_quantity,sale
 2729,Y,@,sale_order_line_invoice_rel,@,@,,@,*,,,sale
 2730,N,Production_empty,sale_order_merge,@,@,,@,*,,,sale
 2731,Y,@,sale_order_option,@,@,,@,*,,,sale
@@ -873,10 +853,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2779,N,Production_empty,stock_inventory_conflict_stock_quant_rel,@,@,,@,*,,,stock
 2780,N,Production_empty,stock_inventory_warning,@,@,,@,*,,,stock
 2781,N,Production_empty,stock_inventory_warning_stock_quant_rel,@,@,,@,*,,,stock
-2782,Y,@,stock_location,@,@,,@,*,,,stock
-2783,Y,@,stock_lot,@,@,write_date,@,*,,,stock
-2784,Y,@,stock_move,@,@,write_date,@,*,price_unit|unit_factor|quantity,price_unit|unit_factor|quantity,stock
-2785,Y,@,stock_move_line,@,@,write_date,@,*,reserved_quantity|quantity,reserved_quantity|quantity,stock
 2786,Y,@,stock_move_line_consume_rel,@,@,,@,*,,,stock
 2787,Y,@,stock_move_move_rel,@,@,,@,*,,,stock
 2788,N,Production_empty,stock_orderpoint_snooze,@,@,,@,*,,,stock
@@ -885,13 +861,10 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2791,N,Production_empty,stock_package_level,@,@,,@,*,,,stock
 2792,N,Production_empty,stock_package_type,@,@,,@,*,base_weight|max_weight,base_weight|max_weight,stock
 2793,N,Production_empty,stock_package_type_stock_putaway_rule_rel,@,@,,@,*,,,stock
-2794,Y,@,stock_picking,@,@,,@,*,carrier_price|time_in_out,carrier_price|time_in_out,stock
 2795,Y,@,stock_picking_backorder_rel,@,@,,@,*,,,stock
 2796,N,Production_empty,stock_picking_sms_rel,@,@,,@,*,,,stock
 2797,N,Production_empty,stock_picking_transfer_rel,@,@,,@,*,,,stock
-2798,Y,@,stock_picking_type,@,@,,@,*,,,stock
 2799,N,Production_empty,stock_putaway_rule,@,@,,@,*,,,stock
-2800,Y,@,stock_quant,@,@,write_date,@,*,,,stock
 2801,N,Production_empty,stock_quant_package,@,@,,@,*,shipping_weight,shipping_weight,stock
 2802,N,Production_empty,stock_quant_stock_request_count_rel,@,@,,@,*,,,stock
 2803,N,Production_empty,stock_quant_stock_track_confirmation_rel,@,@,,@,*,,,stock
@@ -900,7 +873,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2806,N,Production_empty,stock_replenishment_option,@,@,,@,*,,,stock
 2807,N,Production_empty,stock_request_count,@,@,,@,*,,,stock
 2808,N,Production_empty,stock_return_picking,@,@,,@,*,,,stock
-2809,Y,@,stock_return_picking_line,@,@,,@,*,,,stock
 2810,Y,@,stock_route,@,@,,@,*,,,stock
 2811,N,Production_empty,stock_route_categ,@,@,,@,*,,,stock
 2812,Y,@,stock_route_move,@,@,,@,*,,,stock
@@ -912,7 +884,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2818,N,Production_empty,stock_rules_report,@,@,,@,*,,,stock
 2819,N,Production_empty,stock_rules_report_stock_warehouse_rel,@,@,,@,*,,,stock
 2820,N,Production_empty,stock_scheduler_compute,@,@,,@,*,,,stock
-2821,Y,@,stock_scrap,@,@,,@,*,,,stock
 2822,Y,@,stock_storage_category,@,@,,@,*,,,stock
 2823,N,Production_empty,stock_storage_category_capacity,@,@,,@,*,quantity,quantity,stock
 2824,N,Production_empty,stock_traceability_report,@,@,,@,*,,,stock
@@ -920,7 +891,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2826,N,Production_empty,stock_track_line,@,@,,@,*,,,stock
 2827,Y,@,stock_valuation_layer,@,@,write_date,@,*,price_diff_value,price_diff_value,stock
 2828,Y,@,stock_valuation_layer_revaluation,@,@,,@,*,,,stock
-2829,Y,@,stock_warehouse,@,@,,@,*,,,stock
 2830,Y,@,stock_warehouse_orderpoint,@,@,write_date,@,*,manufacturing_visibility_days|purchase_visibility_days,manufacturing_visibility_days|purchase_visibility_days,stock
 2831,N,Production_empty,stock_warn_insufficient_qty_scrap,@,@,,@,*,quantity,quantity,stock
 2832,N,Production_empty,stock_warn_insufficient_qty_unbuild,@,@,,@,*,quantity,quantity,stock
