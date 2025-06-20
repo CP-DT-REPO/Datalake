@@ -727,6 +727,7 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2647,Y,@,purchase_order_approval_wizard,@,@,,@,*,,,Job_grp_6
 2648,Y,@,purchase_order_approvers,@,@,,@,*,,,Job_grp_6
 2649,N,Production_empty,purchase_order_group,@,@,,@,*,,,Job_grp_6
+2651,Y,@,purchase_order_stock_picking_rel,@,@,,@,*,,,Job_grp_6
 2652,Y,@,purchase_requisition,@,@,,@,*,,,Job_grp_6
 2653,N,Production_empty,purchase_requisition_alternative_warning,@,@,,@,*,,,Job_grp_6
 2654,N,Production_empty,purchase_requisition_create_alternative,@,@,,@,*,,,Job_grp_6
