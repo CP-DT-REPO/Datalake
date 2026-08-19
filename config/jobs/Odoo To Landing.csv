@@ -979,3 +979,4 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2923,Y,@,mo_operations_line_wizard,@,@,,@,*,product_qty|duration_expected|duration,product_qty|duration_expected|duration,Job_grp_4
 2924,Y,@,mo_operations_wizard,@,@,,@,*,,,Job_grp_4
 2925,Y,@,mrp_qr_label,@,@,,@,*,,,mrp
+2926,Y,@,hr_expense_approve_duplicate,@,@,,@,*,,,
