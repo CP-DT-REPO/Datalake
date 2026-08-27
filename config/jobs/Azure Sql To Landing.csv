@@ -1871,4 +1871,4 @@ _job_num,_active,src_table,trg_table,load_type,incremental_column,operation,reco
 1949,Y,shift_master,@,@,,@,*,,,UAE_ARCO
 1950,N,transaction_type_master,@,@,,@,*,,,UAE_ARCO
 1951,Y,facility_asset_schedule,@,@,,@,*,,,UAE_UV3
-1952,Y,asset_relationship,@,@,,@,*,,,CP2_UV3
+1952,Y,facility_asset_step_state,@,@,,@,*,,,CP2_UV3
