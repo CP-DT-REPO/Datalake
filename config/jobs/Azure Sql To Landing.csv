@@ -1919,9 +1919,3 @@ _job_num,_active,src_table,trg_table,load_type,incremental_column,operation,reco
 2013,Y,tm_entity_type,@,@,,@,*,,,scrn_uv4s
 2014,Y,force_close_joborder_transaction_screen,@,@,,@,*,,,cp2_arco
 2015,Y,force_close_joborder_transaction,@,@,,@,*,,,scrn_arcs
-2016,Y,maintenance_schedule,@,@,,@,*,,,uae_uv3
-2017,Y,facility_asset_schedule,@,@,,@,*,,,uae_uv3
-2018,Y,company_working_hours,@,@,,@,*,,,uae_uv3
-2019,Y,facility_asset_schedule,@,@,,@,*,,,scrn_uv3s
-2020,Y,company_working_hours,@,@,,@,*,,,scrn_uv3s
-2021,Y,shift,@,@,,@,*,,,uae_uiv3
