@@ -1873,7 +1873,6 @@ _job_num,_active,src_table,trg_table,load_type,incremental_column,operation,reco
 1952,Y,facility_asset_step_state,@,@,,@,*,,,CP2_UV3
 1955,Y,mission_control_profile_dashboard_relationship,@,@,,@,*,,,uae_uv3
 1959,Y,internal_facility_asset,@,@,,@,*,,,scrn_uiv3s
-1960,Y,internal_calibration_oem_personnel_details,@,@,,@,*,,,scrn_uiv3s
 1966,Y,batch_run_step_group,@,@,,@,*,,,CP2_UV3
 1967,Y,batch_template_step_group,@,@,,@,*,,,CP2_UV3
 1968,Y,facility_asset_step_state,@,@,,@,*,,,CP2_UV3
