@@ -1892,7 +1892,7 @@ _job_num,_active,src_table,trg_table,load_type,incremental_column,operation,reco
 1986,Y,batch_run_step_resource_location_type,@,@,,@,*,,,scrn_uv3s
 1987,Y,batch_template_step_resource_asset,@,@,,@,*,,,scrn_uv3s
 1988,Y,batch_template_step_resource_location,@,@,,@,*,,,scrn_uv3s
-1988,Y,batch_template_step_resource_location_type,@,@,,@,*,,,scrn_uv3s
+1989,Y,batch_template_step_resource_location_type,@,@,,@,*,,,scrn_uv3s
 1990,Y,asset_location,@,@,,@,*,,,scrn_uv3s
 1992,Y,tm_tag_category,@,@,,@,*,,,scrn_uv4s
 1993,Y,tm_tag,@,@,,@,*,,,scrn_uv4s
