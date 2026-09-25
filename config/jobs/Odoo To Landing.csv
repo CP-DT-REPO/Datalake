@@ -983,3 +983,4 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2927,Y,@,account_account_tag_test,@,@,,@,*,,,account_tag_test
 2928,Y,@,cpdesign_status,@,@,,@,*,,,cpdesign_status
 2929,Y,@,mtr_approval_status,@,@,,@,*,,,mtr_approval_status
+2930,Y,@,dms_dms,@,@,,@,*,,,dms_dms
