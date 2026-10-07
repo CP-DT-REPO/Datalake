@@ -981,6 +981,6 @@ _job_num,_active,src_database,src_table,trg_table,load_type,incremental_column,o
 2925,Y,@,mrp_qr_label,@,@,,@,*,,,mrp
 2926,Y,@,hr_expense_approve_duplicate,@,@,,@,*,,,hr_expense_approve_duplicate
 2927,Y,@,account_account_tag_test,@,@,,@,*,,,account_tag_test
-2928,Y,@,cpdesign_status,@,@,,@,*,,,cpdesign_status
-2929,Y,@,mtr_approval_status,@,@,,@,*,,,mtr_approval_status
-2930,Y,@,dms_dms,@,@,,@,*,,,dms_dms
+2928,Y,@,cpdesign_status,@,@,,@,*,,,Job_grp_8
+2929,Y,@,mtr_approval_status,@,@,,@,*,,,Job_grp_8
+2930,Y,@,dms_dms,@,@,,@,*,,,Job_grp_8

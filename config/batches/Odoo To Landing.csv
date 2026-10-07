@@ -18,3 +18,4 @@ _job_group_num,_active,_parallel_count,_job_selection_condition
 16,Y,10,tags = 'sales'
 17,Y,10,tags = 'stock'
 18,Y,10,tags = 'Job_grp_7'
+19,Y,10,tags = 'Job_grp_8'
